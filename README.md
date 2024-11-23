@@ -14,7 +14,10 @@ gcc -std=c99 -Wall -Werror -o recursive_parser recursive_parser.c stack.c
 ./recursive_parser
 
 Files:
+
 recursive_parser.c: Implements recursive-descent parsing functions.
+
 recursive_parser.h: Declares parser functions and data structures.
+
 stack.c & stack.h: Provide stack operations used in parsing.
 
